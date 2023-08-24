@@ -89,12 +89,25 @@ textarea {
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
+  margin: 50px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -102,14 +115,27 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
+header nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-}
-
-header nav ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   list-style: none;
 }
 
@@ -118,6 +144,19 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -132,6 +171,10 @@ footer .social p {
   align-items: center;
 }
 
+footer .copyright {
+  margin: 20px 0;
+}
+
 /* -------------------- Homepage Styles -------------------- */
 .hero-area {
   display: flex;
@@ -143,9 +186,35 @@ aside {
   justify-content: center;
 }
 
+.form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+input {
+  width: 100%;
+  /* padding: 1em; */
+}
+
 .features {
   display: flex;
   justify-content: center;
+}
+
+.features .content-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .features .features-items {
@@ -155,9 +224,17 @@ aside {
   flex-flow: row wrap;
 }
 
+.features p {
+  margin: 0;
+}
+
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 /*==========================About Page=======================*/
@@ -171,6 +248,10 @@ aside {
   justify-content: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /*==============FAQ Page=================*/
 .faq {
   display: flex;
@@ -179,9 +260,20 @@ aside {
 
 .faq .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  width: 80%;
+  margin: 0 0 40px 0;
+  line-height: 30px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
