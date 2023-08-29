@@ -221,7 +221,7 @@ address {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -231,8 +231,9 @@ footer .social p {
   align-items: center;
 }
 
-.sm-icon {
-  width: 21px;
+.sm-icon i {
+  font-size: 2.25em;
+  color: #527158;
 }
 
 footer .copyright {
