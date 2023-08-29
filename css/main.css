@@ -205,6 +205,9 @@ footer {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-between;
 }
 
 footer p {
@@ -219,9 +222,13 @@ address {
   font-style: normal;
 }
 
+footer .social {
+  margin-bottom: 40px;
+}
+
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -655,7 +662,9 @@ input[type=button] {
   .footer-content {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
     width: 100%;
     margin: 20% 0;
   }
@@ -667,6 +676,12 @@ input[type=button] {
 
   footer h4 {
     font-size: 24px;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   footer .social {
@@ -810,9 +825,12 @@ input[type=button] {
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 12% 0;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    width: 100%;
+    margin: 20% 0;
   }
 
   footer .contact {
@@ -827,7 +845,7 @@ input[type=button] {
 
 
   /****** HOMEPAGE ******/
-
+  
   /* Hero Area */
   .hero-area {
     height: 600px;
