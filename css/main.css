@@ -318,9 +318,9 @@ aside {
   flex-wrap: wrap;
 }
 
-.feature-icon {
-  width: 60px;
-  height: 60px;
+.feature-icon i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
@@ -604,32 +604,22 @@ input[type=button] {
   .articles {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
-    align-content: space-around;
-  }
-
-  .features article {
-    display: flex;
     align-items: center;
-    flex-flow: column wrap;
-    width: 30%;
-    height: 25%;
+    flex-flow: row wrap;
   }
 
-  .features .features-item-p {
-    width: 50%;
-    margin-top: 30px;
+  .features .articles .features-items {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .feature-items i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   /* Reviews */
-  /* .reviews article {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .reviews article div {
-    width: 49%;
-  } */
 
   img {
     width: 100%;
